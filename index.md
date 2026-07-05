@@ -135,4 +135,4 @@ include the updated policy in a new version of the app.
 If you have any questions about this Privacy Policy or your privacy, contact us
 at:
 
-**Email:** rylumcgee@gmail.com
+**Email:** developer.ryan.mcgee@icloud.com
