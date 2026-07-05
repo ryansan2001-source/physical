@@ -12,7 +12,7 @@ aerobic and strength activity against personalized targets.
 personal data. Everything the app stores stays on your device. There are no
 accounts, no servers, no analytics, no advertising, and no third-party tracking.
 
-## Information we process — and where it stays
+## Information we process and where it stays
 
 Physical works entirely on your device. The following information is used only
 on your iPhone (and paired Apple Watch) and is never sent to us or to anyone
@@ -33,9 +33,9 @@ Physical**, or within Apple Health.
 
 ### Your profile
 
-The profile you enter — such as date of birth/age, biological sex, weight,
+The profile you enter, such as date of birth/age, biological sex, weight,
 height, pregnancy or postpartum status, chronic-condition selections, and
-resting heart rate — is used to determine which guideline targets apply to you.
+resting heart rate, is used to determine which guideline targets apply to you.
 This information is stored locally on your device only and is never uploaded.
 
 ### Calendar (optional)
