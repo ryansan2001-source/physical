@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective date:** July 1, 2026
-**Last updated:** July 1, 2026
+**Last updated:** July 9, 2026
 
 This Privacy Policy explains how the **Physical** app ("Physical," "the app,"
 "we," "us") handles your information. Physical is a fitness app built around the
@@ -30,6 +30,16 @@ device, and is governed by Apple's privacy protections. Physical does not
 transmit your Health data off the device, and we never receive it. You can grant
 or revoke this access at any time in **Settings → Privacy & Security → Health →
 Physical**, or within Apple Health.
+
+### Location during outdoor workouts (optional)
+
+If you start an outdoor workout on your Apple Watch (such as a run, walk, bike,
+or hike) and grant location access, Physical records the GPS route for that
+workout so it can be shown as a map in Apple Fitness and Apple Health. Location
+is used only while a workout is active, using while-in-use access, and the route
+is written directly to that workout in Apple Health. Physical does not transmit
+your location off the device, and we never receive it. You can grant or revoke
+this access at any time in **Settings → Privacy & Security → Location Services**.
 
 ### Your profile
 
@@ -61,12 +71,20 @@ To be explicit, Physical does **not**:
 - require or offer an account, login, or sign-up;
 - include analytics, crash-reporting, advertising, or any third-party SDKs;
 - contain a server or backend that receives your data;
-- collect your precise location, contacts, photos, or browsing activity;
+- collect your contacts, photos, or browsing activity;
 - track you across apps or websites, or use the Advertising Identifier;
 - sell or share your personal information.
 
 Because Physical does not collect personal data, there is nothing for us to
 store, disclose, or sell.
+
+## In-app purchases
+
+Physical offers a one-time in-app purchase to unlock full access after a free
+trial. Purchases are handled entirely by Apple through the App Store and
+StoreKit. We never see or receive your payment details; Apple processes the
+transaction and tells the app only whether the unlock has been purchased. Your
+use of the App Store is governed by Apple's privacy policy.
 
 ## How your information is protected
 
@@ -81,9 +99,9 @@ Because your information is stored only on your device, you remain in control of
 it at all times:
 
 - **Profile data** is removed when you delete it in the app or delete the app.
-- **Health and calendar data** are managed by Apple Health and Apple Calendar
-  respectively; you can edit or delete entries there, and revoke Physical's
-  access at any time.
+- **Health, location, and calendar data** are managed by Apple Health and Apple
+  Calendar respectively; you can edit or delete entries there, and revoke
+  Physical's access at any time.
 - Deleting the app removes the app's locally stored data from your device.
 
 ## Your privacy rights
@@ -119,10 +137,10 @@ gathered.
 
 ## Apple's role
 
-Physical relies on Apple frameworks (HealthKit, EventKit, and the notification
-system) and the App Store. Your use of Apple Health, Apple Calendar, iCloud, and
-other Apple services is governed by Apple's own privacy policy, available at
-[https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).
+Physical relies on Apple frameworks (HealthKit, EventKit, Core Location, and the
+notification system) and the App Store. Your use of Apple Health, Apple Calendar,
+iCloud, and other Apple services is governed by Apple's own privacy policy,
+available at [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).
 
 ## Changes to this policy
 
