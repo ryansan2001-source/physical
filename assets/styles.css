@@ -146,6 +146,17 @@ section.alt { background: var(--bg-alt); }
   color: var(--text-soft); font-size: 14px; text-align: center; padding: 16px;
   background: var(--bg-alt);
 }
+.shot { margin: 0; text-align: center; }
+.shot img {
+  width: 100%; height: auto;
+  border-radius: 26px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+.shot figcaption {
+  margin-top: 12px; color: var(--text-soft);
+  font-size: 14px; font-weight: 500;
+}
 
 /* Pricing */
 .price-box {
