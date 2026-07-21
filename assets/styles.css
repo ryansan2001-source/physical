@@ -171,6 +171,33 @@ section.alt { background: var(--bg-alt); }
 .price-box li { padding: 6px 0 6px 28px; position: relative; }
 .price-box li::before { content: "✓"; position: absolute; left: 0; color: var(--teal); font-weight: 800; }
 
+/* Pricing: three plans (subscriptions + lifetime) */
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+.price-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 28px 24px; box-shadow: var(--shadow);
+  text-align: center;
+}
+.price-card.featured { border: 2px solid var(--teal); position: relative; }
+.price-card .badge {
+  display: inline-block; background: var(--teal); color: #fff;
+  font-size: 12px; font-weight: 800; letter-spacing: 0.02em;
+  padding: 4px 12px; border-radius: 999px; margin-bottom: 14px;
+}
+.price-card h3 { margin: 0 0 4px; font-size: 1.05rem; }
+.price-card .amount { font-size: 2.2rem; font-weight: 800; color: var(--deep-teal); letter-spacing: -0.02em; }
+@media (prefers-color-scheme: dark) { .price-card .amount { color: var(--teal); } }
+.price-card .amount span { font-size: 0.95rem; font-weight: 600; color: var(--text-soft); }
+.price-card .trial { color: var(--teal); font-weight: 600; font-size: 14px; margin: 8px 0 0; }
+.price-card p.note { color: var(--text-soft); font-size: 14px; margin: 10px 0 0; }
+.price-foot { text-align: center; color: var(--text-soft); font-size: 14px; margin: 28px auto 0; max-width: 640px; }
+
 /* Content pages (support / privacy) */
 .page { padding: 48px 0 72px; }
 .page h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin: 0 0 6px; letter-spacing: -0.01em; }
