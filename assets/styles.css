@@ -1,22 +1,23 @@
-/* Physical — shared site styles
-   Brand palette mirrors the app (Shared/Sharing/RingStyle.swift,
-   PhysicalApp/PhysicalApp.swift): coral aerobic, teal strength, deep teal/navy. */
+/* Physical: shared site styles
+   Brand palette mirrors the app (Shared/Sharing/RingStyle.swift, AccentColor and
+   AppBackground colorsets) and the App Store art: coral aerobic, teal strength,
+   teal-to-navy brand gradient. */
 
 :root {
   --coral: #F27057;
   --coral-strong: #E85A3F;
   --teal: #2EAD9E;
-  --deep-teal: #215C63;
-  --navy: #0F2133;
+  --deep-teal: #17807A;   /* app AccentColor (light); 4.8:1 with white */
+  --navy: #0F1C38;
 
   --bg: #ffffff;
-  --bg-alt: #f4f7f8;
+  --bg-alt: #eaf4f5;
   --card: #ffffff;
   --text: #14232b;
   --text-soft: #4d626c;
-  --border: #e2e9ec;
-  --hero-from: #215C63;
-  --hero-to: #0F2133;
+  --border: #d8e8ea;
+  --hero-from: #126678;    /* same gradient as the App Store screenshots */
+  --hero-to: #0F1C38;
   --hero-text: #eef6f6;
   --shadow: 0 6px 24px rgba(15, 33, 51, 0.08);
   --radius: 16px;
@@ -25,14 +26,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0c1620;
-    --bg-alt: #101f2a;
-    --card: #14232f;
+    --bg: #0b1a20;
+    --bg-alt: #0f2730;
+    --card: #143039;
     --text: #e8eef1;
     --text-soft: #a5b6c0;
-    --border: #22323f;
-    --hero-from: #143c42;
-    --hero-to: #08111b;
+    --border: #1f3d47;
+    --hero-from: #0f4552;
+    --hero-to: #08121f;
     --hero-text: #eef6f6;
     --shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
   }
@@ -54,7 +55,7 @@ body {
 img { max-width: 100%; display: block; }
 
 a { color: var(--deep-teal); }
-@media (prefers-color-scheme: dark) { a { color: var(--teal); } }
+@media (prefers-color-scheme: dark) { a { color: #54CCBD; } }   /* app AccentColor (dark) */
 
 .container {
   max-width: var(--maxw);
@@ -186,7 +187,7 @@ section.alt { background: var(--bg-alt); }
 }
 .price-card.featured { border: 2px solid var(--teal); position: relative; }
 .price-card .badge {
-  display: inline-block; background: var(--teal); color: #fff;
+  display: inline-block; background: var(--deep-teal); color: #fff;
   font-size: 12px; font-weight: 800; letter-spacing: 0.02em;
   padding: 4px 12px; border-radius: 999px; margin-bottom: 14px;
 }
@@ -194,7 +195,8 @@ section.alt { background: var(--bg-alt); }
 .price-card .amount { font-size: 2.2rem; font-weight: 800; color: var(--deep-teal); letter-spacing: -0.02em; }
 @media (prefers-color-scheme: dark) { .price-card .amount { color: var(--teal); } }
 .price-card .amount span { font-size: 0.95rem; font-weight: 600; color: var(--text-soft); }
-.price-card .trial { color: var(--teal); font-weight: 600; font-size: 14px; margin: 8px 0 0; }
+.price-card .trial { color: var(--deep-teal); font-weight: 600; font-size: 14px; margin: 8px 0 0; }
+@media (prefers-color-scheme: dark) { .price-card .trial { color: #54CCBD; } }
 .price-card p.note { color: var(--text-soft); font-size: 14px; margin: 10px 0 0; }
 .price-foot { text-align: center; color: var(--text-soft); font-size: 14px; margin: 28px auto 0; max-width: 640px; }
 
