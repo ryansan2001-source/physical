@@ -198,6 +198,11 @@ section.alt { background: var(--bg-alt); }
 .price-card .trial { color: var(--deep-teal); font-weight: 600; font-size: 14px; margin: 8px 0 0; }
 @media (prefers-color-scheme: dark) { .price-card .trial { color: #54CCBD; } }
 .price-card p.note { color: var(--text-soft); font-size: 14px; margin: 10px 0 0; }
+/* Home page FAQ: same rhythm as the Support page Q&A, kept to a readable width. */
+.faq { max-width: 720px; margin: 0 auto; }
+.faq h3 { margin: 26px 0 6px; font-size: 1.12rem; }
+.faq h3:first-child { margin-top: 0; }
+.faq p { margin: 0; color: var(--text-soft); }
 .price-foot { text-align: center; color: var(--text-soft); font-size: 14px; margin: 28px auto 0; max-width: 640px; }
 
 /* Content pages (support / privacy) */

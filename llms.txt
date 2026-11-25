@@ -1,0 +1,22 @@
+# Physical: Activity Guidelines
+
+> Physical is an iPhone and Apple Watch fitness app that tracks the weekly exercise targets from the 2018 U.S. Physical Activity Guidelines, about 150 minutes of moderate aerobic activity and 2 strength days for adults, personalized by age, instead of step counts. It runs entirely on-device: no account, no ads, no analytics, no network calls.
+
+## What it does
+- Two weekly rings: aerobic minutes (vigorous minutes count double) and strength days. Any workout saved to Apple Health counts automatically.
+- Vitals: ranks VO2 max (from Apple Watch Cardio Fitness), leg press to bodyweight, and waist-to-height ratio into four zones (Excellent, Good, Fair, Needs work) from population research.
+- Coach mode (optional): pick a goal (cardio endurance, lift heavier, VO2 max, or lowest vital) for a weekly plan with 4x4 HIIT intervals, easy zone 2 cardio, strength days, suggested weights, and interval workouts sent to Apple Watch.
+- Live heart rate zones (light, moderate, vigorous, max) on iPhone and Apple Watch, including Live Activity and Dynamic Island.
+- Strength training log on iPhone and Apple Watch: sets, reps, weight, muscle-group coverage, push/pull/squat/hinge volume, saved routines.
+- Apple Watch outdoor GPS (distance, pace, route map), time/calorie/distance workout goals, music controls.
+- Siri ("Hey Siri, let's get Physical", "What's my VO2 max in Physical?", "What's my plan in Physical?"), Shortcuts, Action Button, widgets, complications.
+- CSV export, iCloud backup of routines and profile, shareable weekly image.
+
+## Pricing (US dollars; local prices vary)
+- 7-day free trial, then $2.99/month or $19.99/year, or a one-time $34.99 lifetime unlock.
+
+## Links
+- App Store: https://apps.apple.com/us/app/physical-activity-guidelines/id6787523039
+- Home: https://ryansan2001-source.github.io/physical/
+- Support and FAQ: https://ryansan2001-source.github.io/physical/support/
+- Privacy policy: https://ryansan2001-source.github.io/physical/privacy/
